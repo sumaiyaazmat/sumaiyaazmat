@@ -1,7 +1,7 @@
 ![logo](https://github.com/sumaiyaazmat/sumaiyaazmat/blob/main/Sumaiya%20Azmat.png)
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=200EA1&width=435&lines=Hi!+Sumaiya+Azmat+is+here!;Good+to+see+you++there!" alt="Typing SVG" /></a>
-<h1 align="center">Hi 👋, I'm Sumaiya Azmat</h1>
+<h1 align="center">Welcome😏 to my Github profile!</h1>
 <h3 align="center">A passionate programmer from Pakistan.</h3>
 <img align="right " alt="coding" width="400" src="https://cdn.dribbble.com/users/1519660/screenshots/4536550/media/053531508b8be8f7002815911fa86cdc.gif"/>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sumaiyaazmat&label=Profile%20views&color=0e75b6&style=flat" alt="sumaiyaazmat" /> </p>
