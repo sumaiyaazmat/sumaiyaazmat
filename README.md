@@ -26,4 +26,5 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sumaiyaazmat&show_icons=true&locale=en" alt="sumaiyaazmat" /></p>
 
-<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=Sumaiya%20azmat&theme=dark" alt="GitHub Streak" /></a>
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Sumaiya%20Azmat&theme=dark" alt="GitHub Streak" /></a>
+
