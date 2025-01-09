@@ -26,5 +26,5 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sumaiyaazmat&show_icons=true&locale=en" alt="sumaiyaazmat" /></p>
 [![GitHub Streak](https://streak-stats.demolab.com/?user=Sumaiya)](https://git.io/streak-stats)
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Sumaiya&theme=blue-green" alt="GitHub Streak" /></a>
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Sumaiya&theme=dark)](https://git.io/streak-stats)
 
