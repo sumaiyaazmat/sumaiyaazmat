@@ -2,14 +2,31 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=harlow+solid+italic&pause=1000&color=FF1E11&width=435&lines=%22Hi%2C+I%E2%80%99m+Sumaiya+Azmat.;Nice+to+have+you+around!" alt="Typing SVG" /></a>
 <h1 align="center">Welcome to my Github profile!</h1>
 <h3 align="center">A passionate programmer from Pakistan.</h3>
+## 👩‍💻 About Me
 
+- 🎓 BS Software Engineering Student
+- 🤖 Currently learning Machine Learning and AI
+- 🚀 Building real-world ML projects with FastAPI and MySQL
+- 💻 Passionate about Software Engineering and Backend Development
+- 📚 Exploring Recommendation Systems, Data Science, and MLOps
+- 🌱 Always learning something new
+
+## 🚀 Currently Working On
+
+🛒 **AI-Powered E-Commerce Recommendation System**
+
+A full-stack e-commerce platform integrating Machine Learning, customer segmentation, personalized recommendations, FastAPI, and MySQL.
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sumaiyaazmat&label=Profile%20views&color=0e75b6&style=flat" alt="sumaiyaazmat" /> </p>
 
-- 📫 How to reach me **sumaiyaazmat2008@gmail.com**
+
 
 - ⚡ Fun fact **Its not too late to Shine.**
 
 <h3 align="left">Connect with me:</h3>
+
+
+- 📧 officialsumaiya15@gmail.com
+- 💼 LinkedIn: https://linkedin.com/in/sumaiya-azmat-a04b27335
 <p align="left">
 <a href="https://linkedin.com/in/sumaiya azmat" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sumaiya azmat" height="30" width="40" /></a>
 <a href="https://instagram.com/@sumaiyaazmat" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="@sumaiyaazmat" height="30" width="40" /></a>
