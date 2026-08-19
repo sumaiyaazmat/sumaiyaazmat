@@ -88,50 +88,5 @@ A full-stack e-commerce platform integrating Machine Learning, customer segmenta
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="buy me a coffee" height="45" width="180" />
 </a>
 
----
 
-<details>
-<summary>⚙️ Setup notes (click to expand)</summary>
 
-**To make the contribution snake animation work:**
-
-1. Create a repository named exactly `sumaiyaazmat` (must match your username) if you haven't already — this is your GitHub profile repo.
-2. Add a workflow file at `.github/workflows/snake.yml` (included below).
-3. Push it — the action runs on a schedule and on push, generating the SVG used above.
-
-```yaml
-name: generate contribution snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  push:
-    branches:
-      - main
-  workflow_dispatch: {}
-
-permissions:
-  contents: write
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-4. Double-check the badge usernames (`sumaiyaazmat`) throughout this file match your actual GitHub username — update them if not.
-
-</details>
