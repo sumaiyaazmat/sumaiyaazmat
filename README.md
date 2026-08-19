@@ -72,20 +72,12 @@ A full-stack e-commerce platform integrating Machine Learning, customer segmenta
   <img src="https://ghchart.rshah.org/ff1e56/sumaiyaazmat" alt="GitHub contribution chart" />
 </p>
 
-<details>
-<summary>⚠️ Graph not loading? Click here</summary>
-<br>
 
-This usually means one of two things:
-
-1. **Private contributions are hidden** — go to `github.com/settings/profile` → *"Contributions & activity"* → enable **"Include private contributions on my profile."** Public tools can't count private-repo commits otherwise.
-2. **The service is briefly rate-limited** — refresh after a minute, or swap the image URL above for one of these alternates:
-   - `https://github-contributions-api.jogruber.de/v4/sumaiyaazmat?type=svg`
    - `https://activity-graph.herokuapp.com/graph?username=sumaiyaazmat&theme=react-dark`
 
 </details>
 
-<br>
+
 
 ## 🐍 Contribution Snake
 
@@ -119,56 +111,6 @@ This usually means one of two things:
 
 <br><br>
 
----
-
-<details>
-<summary>⚙️ Setup Notes (click to expand)</summary>
-<br>
-
-**To activate the contribution snake animation:**
-
-1. Make sure you have a repository named exactly `sumaiyaazmat` (matching your username) — this is your special GitHub profile repo.
-2. Add the file below at `.github/workflows/snake.yml` in that repo.
-3. Push to `main` — the action generates the SVG on a schedule and on every push.
-
-yaml
-name: generate contribution snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  push:
-    branches:
-      - main
-  workflow_dispatch: {}
-
-permissions:
-  contents: write
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-       uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
-**If the contribution graph shows "Can't fetch any contribution":**
 
-- Enable private contributions in your GitHub profile settings (see above), or
-- Swap in one of the fallback graph URLs listed in the "Graph not loading?" section above.
-
-**General:** double-check every `sumaiyaazmat` reference in this file matches your actual GitHub username exactly (case-sensitive).
-
-</details>
