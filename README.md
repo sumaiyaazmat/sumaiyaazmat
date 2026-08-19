@@ -131,7 +131,7 @@ This usually means one of two things:
 2. Add the file below at `.github/workflows/snake.yml` in that repo.
 3. Push to `main` — the action generates the SVG on a schedule and on every push.
 
-```yaml
+yaml
 name: generate contribution snake
 
 on:
@@ -156,13 +156,13 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - uses: crazy-max/ghaction-github-pages@v4
+       uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
+
 
 **If the contribution graph shows "Can't fetch any contribution":**
 
